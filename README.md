@@ -23,7 +23,7 @@ Home  | Search | Saved Articles
     - [X] Pagination 
 - [X] Solid
 - [X] Jetpack Compose
-- [X] StateFlow
+- [X] Flows
 - [X] Coroutines
 - [X] Dagger Hilt 
 - [X] Retrofit
