@@ -1,45 +1,38 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
-           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
-           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# 📰 News App
 
-These are common Git commands used in various situations:
+News App is an Android app that helps you discover articles and breaking news headlines from worldwide sources.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## ⏩ Preview
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+Home  | Search | Saved Articles
+------------- | ------------- | -------------
+![](https://github.com/luanolimpio/news_app/blob/main/assets/preview/home.gif?raw=true) | ![](https://github.com/luanolimpio/news_app/blob/main/assets/preview/search.gif?raw=true) | ![](https://github.com/luanolimpio/news_app/blob/main/assets/preview/saved_articles.gif?raw=true)
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## ✨ Features
+ - Display a list of breaking news.
+ - Search through millions of articles.
+ - View detailed information about each article.
+ - Save favorite articles to read later.
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+## 📚 Tech Stack
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+- [X] Clean Architecture
+- [X] Design Patterns
+    - [X] Singleton
+    - [X] Dependency Injection
+    - [X] Pagination 
+- [X] Solid
+- [X] Jetpack Compose
+- [X] StateFlow
+- [X] Coroutines
+- [X] Dagger Hilt 
+- [X] Retrofit
+- [X] Room Database
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## 🚀 Getting Started
+
+To run this app, you'll need to have Android Studio installed. Follow these steps to get started:
+
+ - Clone this repository: git clone https://github.com/luanolimpio/news_app.git
+ - Open the project in Android Studio.
+ - Build and run the app.
